@@ -127,7 +127,7 @@ plot(steps_by_interval$interval,steps_by_interval$steps, type="l", xlab="Interva
 ```r
 max_interval <- steps_by_interval[which.max(steps_by_interval$steps),1]
 ```
-* Max Interval: 835
+Max Interval: 835
 
 
 ## Imputing missing values
